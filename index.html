@@ -5,6 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rock Paper Scissors</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        .score:first-child {
+            margin-left: 20px; /* Adjust this value as needed */
+        }
+    </style>
 </head>
 <body>
     <h1>Rock Paper Scissors</h1>
@@ -26,16 +31,14 @@
         <p id="result-display"> </p>
     </div>
 
-
     <div class="score-board">
         <p id="main-board"> Score Board</p>
         <div class="display">
-           <div class="score" >
+           <div class="user-display">
                <p> Your Score </p>
                <p id="user-score">0</p>
-
             </div>
-            <div class="score">
+            <div class="Computer-display">
                 <p>Computer Score</p>
                  <p id="computer-score">0</p>
             </div>
@@ -43,11 +46,6 @@
     </div>
 
     <button class="btn">Reset Score</button>
-
-   
-
-
-    
+    <script src="app.js"></script>
 </body>
-<script src="app.js"></script>
-</html>   
+</html>

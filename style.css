@@ -67,12 +67,15 @@ img{
     height: 3rem;
 }
 
-.score{
+.user-display , .computer-display{
     font-weight: 550;
+   
+    margin-left: 2.5rem;
 
 }
 #user-score , #computer-score{
     margin:1rem;
+   
 
 }
 
